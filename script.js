@@ -105,10 +105,10 @@ function somatorio(){
         quantidadeDeNumero = Number(prompt("quantos numeros?: "))
     }
     var somatorio =  0
-    var soliciarNumero
+    var solicitarNumero
     for(var primeiroNumero = 1;primeiroNumero<=quantidadeDeNumero;primeiroNumero++){
-        soliciarNumero = Number(prompt('numero para ser somado:'))
-        somatorio = somatorio + soliciarNumero
+        solicitarNumero = Number(prompt('numero para ser somado:'))
+        somatorio = somatorio + solicitarNumero
         alert('somatorio:'+somatorio)
     }
 }
